@@ -110,6 +110,11 @@ class TaskManager {
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
         // TODO: Implement completion logic
+	for (int i = 0; i < tasks.size(); i++) {
+            if (tasks.get(i).getName().equals(name)) {
+                tasks.get(i).complete();
+            }
+        }
     }
 
     // 9. Mark all tasks in a category as completed

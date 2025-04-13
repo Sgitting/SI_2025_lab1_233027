@@ -1,0 +1,20 @@
+git fetch origin - Креира tracker гранка за 3-те гранки кој ги креирав на Github.
+git checkout 1-remove-a-task-by-name - Префрлање на гранката 1-remove-a-task-by-name тоа значи сите промени и комити кој ќе ги направиме ќе бидат зачувани на оваа гранка.
+git add SI2025Lab1Main.java - Додавање на проментие во фајлот SI2025Lab1Main.java на stage областа.
+git commit -m "Remove task function implemented" - Додавање на нов комит со сите пормени кој се во staging областа на тековната гранка со соодветна порака. 
+git push -u origin 1-remove-a-task-by-name - Ги додава промените од локалниот репозиториум на одалечениот репозиториум за соодветната гранка. -u се користи за локалната гранка да следи (track) оддалечената гранка.
+git checkout 4-sort-tasks-by-priority - Префрлање на гранката 4-sort-tasks-by-priority тоа значи сите промени и комити кој ќе ги направиме ќе бидат зачувани на оваа гранка.
+git add SI2025Lab1Main.java - Додавање на проментие во фајлот SI2025Lab1Main.java на stage областа.
+git commit -m "Implemented function for sorting by priority" - Додавање на нов комит со сите пормени кој се во staging областа на тековната гранка со соодветна порака.
+git push -u origin 4-sort-tasks-by-priority - Ги додава промените од локалниот репозиториум на одалечениот репозиториум за соодветната гранка. -u се користи за локалната гранка да следи (track) оддалечената гранка.
+git checkout 8-mark-a-task-as-completed-by-name - Префрлање на гранката 8-mark-a-task-as-completed-by-name тоа значи сите промени и комити кој ќе ги направиме ќе бидат зачувани на оваа гранка.
+git add SI2025Lab1Main.java - Додавање на проментие во фајлот SI2025Lab1Main.java на stage областа.
+git commit -m "Implemented function for mark a task as completed by name" - Додавање на нов комит со сите пормени кој се во staging областа на тековната гранка со соодветна порака.
+git push -u origin 8-mark-a-task-as-completed-by-name - Ги додава промените од локалниот репозиториум на одалечениот репозиториум за соодветната гранка. -u се користи за локалната гранка да следи (track) оддалечената гранка.
+git checkout master - Префрлање на гранката master тоа значи сите промени и комити кој ќе ги направиме ќе бидат зачувани на оваа гранка.
+git pull origin master - Ги влечеме промените од одалечениот репозиториум на локалниот репозиториум за соодветната гранка.
+git merge 8-mark-a-task-as-completed-by-name - Спојување на гранката 8-mark-a-task-as-completed-by-name со гранката master.
+git push origin master - Ги додава промените од локалниот репозиториум на одалечениот репозиториум за соодветната гранка.
+git add . - Додавање на проментие од сите фајлови на stage областа.
+git commit -m "Final commit" - Додавање на нов комит со сите пормени кој се во staging областа на тековната гранка со соодветна порака.
+git push origin master - Ги додава промените од локалниот репозиториум на одалечениот репозиториум за соодветната гранка.

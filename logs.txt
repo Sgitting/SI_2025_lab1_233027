@@ -1,0 +1,15 @@
+*   ce87483 Merge branch '8-mark-a-task-as-completed-by-name'
+|\  
+| * d5503f3 Implemented function for mark a task as completed by name
+* |   d3e5b4e Merge pull request #11 from Sgitting/4-sort-tasks-by-priority
+|\ \  
+| * | f1e6457 Implemented function for sorting by priority
+| |/  
+* |   cc18096 Merge pull request #10 from Sgitting/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 153dd6f Remove task function implemented
+|/  
+* fa30f06 Add starter code
+* f6fe22d Initial commit
